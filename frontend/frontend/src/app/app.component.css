@@ -1,0 +1,30 @@
+/* Add these styles to src/app/app.component.css */
+/* Main app styles */
+:host {
+    display: block;
+    min-height: 100vh;
+    background-color: #f5f7fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  router-outlet + * {
+    padding: 2rem 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  app-nav {
+    display: block;
+    background-color: #333;
+    padding: 10px;
+  }
+  
+  app-nav a {
+    color: white;
+    margin-right: 15px;
+    text-decoration: none;
+  }
+  
+  app-nav a:hover {
+    text-decoration: underline;
+  }
